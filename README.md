@@ -14,5 +14,5 @@
     - `go env -w GOPROXY=https://goproxy.io,direct`
     - `go mod tidy`
 
-  - Run the module:
-    - `go run .`
+  - Run the module with page preview:
+    - `go run . -rod=show`
