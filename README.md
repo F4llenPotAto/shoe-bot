@@ -11,4 +11,4 @@
     - `go mod tidy`
 
   - Run the module:
-  `go run .`
+    - `go run .`
