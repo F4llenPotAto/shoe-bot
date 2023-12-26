@@ -7,9 +7,8 @@
 
 - **Running the project**:
   - Set your environment:
-
-  `go env -w GOPROXY=https://goproxy.io,direct`
-  `go mod tidy`
+    - `go env -w GOPROXY=https://goproxy.io,direct`
+    - `go mod tidy`
 
   - Run the module:
   `go run .`
