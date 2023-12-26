@@ -1,10 +1,13 @@
 package main
 
-import "github.com/go-rod/rod"
+import (
+	"github.com/go-rod/rod"
+	"time"
+)
 
 func main() {
-    page := rod.New().MustConnect().MustPage("https://www.wikipedia.org/")
-    page.MustWaitStable().MustScreenshot("screenshot.png")
-
+	page := rod.New().NoDefaultDevice().MustConnect().MustPage("https://www.wikipedia.org/")
+	page.MustWindowFullscreen()
+	page.MustWaitStable().MustScreenshot("screenshot.png")
+	time.Sleep(time.Hour)
 }
-
