@@ -1,17 +1,8 @@
-# shoe-bot
+Experimentations with the Puppeteer library as a potential bot library.
 
-## Our first attempt at a python chat bot.
+# Getting Started
 
-shoe-bot is:
-
-  * **Experimental**:
-  Do NOT give us your credit card info! John Wick will not save you...
-
-  * **Fast on all platforms**:
-  WIP -- Migrate libraries over to another language?
-  
-  * **A POC**:
-  This is our first introduction into http requests and web scraping.
-
-shoe-bot's primary use as a CLI will allow you to buy XYZ product.
-
+1. Install Node.js v20.10.0
+2. Open a terminal and cd into the parent directory of this README
+3. Install dependencies with `npm install`
+4. Run the puppeteer example program with `npm start`
