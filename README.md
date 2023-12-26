@@ -1,5 +1,9 @@
 # Rod
 
+### Github Reference:
+
+- **Rod Github Repo**: [link here](https://github.com/go-rod/rod)
+
 ### Install instructions:
 
 - **Install golang**:
