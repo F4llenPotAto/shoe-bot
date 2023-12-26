@@ -6,8 +6,11 @@ import (
 )
 
 func main() {
-	page := rod.New().NoDefaultDevice().MustConnect().MustPage("https://www.wikipedia.org/")
-	page.MustWindowFullscreen()
+	browser := rod.New().MustConnect().NoDefaultDevice()
+	page := browser.MustPage("https://wikipedia.org/").MustWindowFullscreen()
+
+	page.MustElement("#searchInput").MustInput("earth")
+
 	page.MustWaitStable().MustScreenshot("screenshot.png")
 	time.Sleep(time.Hour)
 }
