@@ -14,3 +14,4 @@ shoe-bot is:
   This is our first introduction into http requests and web scraping.
 
 shoe-bot's primary use as a CLI will allow you to buy XYZ product.
+
